@@ -1,0 +1,641 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/compiler/bootstrap.css">
+
+    <link rel="stylesheet" href="style/css/style.css">
+    
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.css">
+
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"> -->
+
+    <title>Curso de Bootstrap!</title>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-gradient-primary">
+
+      <div class="container">
+        <a class="navbar-brand h1 mb-0" href="#">Curso</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSite">
+
+          <ul class="navbar-nav mr-auto">
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Início</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Perfil</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Serviços</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Depoimentos</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contatos</a>
+            </li>
+
+          </ul>
+
+          <ul class="navbar-nav ml-auto">
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="navDrop">
+                  Social
+                </a>
+                
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Facebook</a>
+                    <a class="dropdown-item" href="#">Twitter</a>
+                    <a class="dropdown-item" href="#">Instagram</a>
+                </div>
+              </li>
+
+          </ul>
+
+          <form class="form-inline">
+            <input class="form-control ml-4 mr-2" type="search" placeholder="Buscar.......">
+            <button class="btn btn-dark" type="submit">Ok</button>
+          </form>
+
+        </div>
+      </div>
+
+    </nav>
+
+    <div id="carouselSite" class="carousel slide" data-ride="carousel">
+
+      <ol class="carousel-indicators">
+
+        <li data-target="#carouselSite" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselSite" data-slide-to="1"></li>
+        <li data-target="#carouselSite" data-slide-to="2"></li>
+
+      </ol>
+
+      <div class="carousel-inner">
+
+        <div class="carousel-item active">
+
+          <img src="imgs/slide-01.jpg" class="img-fluid  d-block">
+
+          <div class="carousel-caption d-none d-md-block">
+
+            <h1>Lorem Ipsum</h1>
+
+            <p class="lead">Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica</p>
+
+          </div>
+
+        </div>
+        
+        <div class="carousel-item">
+
+          <img src="imgs/slide-02.jpg" class="img-fluid d-block">
+
+          <div class="carousel-caption d-none d-md-block">
+
+            <h1>Porque nós o usamos?</h1>
+
+            <p class="lead">É um fato conhecido de todos que um leitor</p>
+
+          </div>
+
+        </div>
+        
+        <div class="carousel-item">
+
+          <img src="imgs/slide-03.jpg" class="img-fluid d-block">  
+
+          <div class="carousel-caption d-none d-md-block">
+
+            <h1>Onde posso conseguí-lo?</h1>
+
+            <p class="lead">Existem muitas variações disponíveis de passagens</p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <a class="carousel-control-prev" href="#carouselSite" role="button" data-slide="prev">
+
+        <span class="carousel-control-prev-icon"></span>
+        <span class="sr-only">Anterior</span>
+
+      </a>
+  
+      <a class="carousel-control-next" href="#carouselSite" role="button" data-slide="next">
+        
+        <span class="carousel-control-next-icon"></span>
+        <span class="sr-only">Avançar</span>
+
+      </a>
+
+    </div>
+
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-12 text-center my-5">
+
+          <h1 class="display-3"><i class="fa fa-cogs text-primary"></i></i>De onde ele vem?</h1>
+          <p>Ao contrário do que se acredita, Lorem Ipsum não é simplesmente um texto randômico.</p>
+
+        </div>
+
+      </div>
+
+      <div class="row mb-5">
+
+        <div class="col-sm-6 col-md-4 mb-3">
+
+          <nav id="navbarVertical" class="navbar navbar-light bg-light">
+
+            <nav class="nav nav-pills flex-column">
+
+              <a class="nav-link" href="#item1">Item 1</a>
+
+                <nav class="nav nav-pills flex-column">
+                  <a class="nav-link ml-3" href="#item1-1">Item 1-1</a>
+                  <a class="nav-link ml-3" href="#item1-2">Item 1-2</a>
+                </nav>
+
+              <a class="nav-link my-2" href="#item2">Item 2</a>
+
+              <a class="nav-link my-2" href="#item3">Item 3</a>
+
+                <nav class="nav nav-pills flex-column">
+                  <a class="nav-link ml-3" href="#item3-1">Item 3-1</a>
+                  <a class="nav-link ml-3" href="#item3-2">Item 3-2</a>
+                </nav>
+
+            </nav>
+
+          </nav>
+
+        </div>
+
+        <div class="col-sm-6 col-md-8">
+
+          <div data-spy="scroll" data-target="#navbarVertical" data-offset="0" class="scrollspySite">
+
+            <h4 id="item1">Passagem padrão 1</h4>
+            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+
+            <h5 id="item1-1">Seção 1.10.32 de</h5>
+            <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+
+            <h5 id="item1-2">Tradução para o inglês</h5>
+            <p>"But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.</p>
+
+            <h4 id="item2">Passagem padrão 2</h4>
+            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+
+            <h4 id="item3">Passagem padrão 3</h4>
+            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+
+            <h5 id="item3-1">Seção 1.10.32 de</h5>
+            <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+
+            <h5 id="item3-2">Tradução para o inglês</h5>
+            <p>"But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.</p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="row justify-content-sm-center">
+
+        <div class="col-sm-6 col-md-4">
+
+          <div class="card mb-5">
+
+            <img class="card-img-top" src="imgs/slide-01.jpg">
+            <div class="card-body">
+              <h4 class="card-title">Conteúdo aqui</h4>
+              <h6 class="card-subtitle mb-2 text-muted">Fazendo com que ele tenha.</h6>
+              <p class="card-text">O trecho padrão original de Lorem Ipsum, usado desde o século XVI, está reproduzido abaixo para os interessados.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Serviço</li>
+              <li class="list-group-item">Manutenção</li>
+              <li class="list-group-item">Venda</li>
+            </ul>
+            <div class="card-body">
+              <a href="#" class="card-link">Acesse</a>
+              <a href="#" class="card-link">Saiba Mais</a>
+            </div>
+            <div class="card-footer text-muted">
+              Data de Entrega : 99/99/9999
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="col-sm-6 col-md-4">
+
+          <div class="card mb-5">
+
+            <img class="card-img-top" src="imgs/slide-02.jpg">
+            <div class="card-body">
+                <h4 class="card-title">Conteúdo aqui</h4>
+                <h6 class="card-subtitle mb-2 text-muted">Fazendo com que ele tenha.</h6>
+                <p class="card-text">O trecho padrão original de Lorem Ipsum, usado desde o século XVI, está reproduzido abaixo para os interessados.</p>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Serviço</li>
+                <li class="list-group-item">Manutenção</li>
+                <li class="list-group-item">Venda</li>
+              </ul>
+              <div class="card-body">
+                <a href="#" class="card-link">Acesse</a>
+                <a href="#" class="card-link">Saiba Mais</a>
+              </div>
+              <div class="card-footer text-muted">
+                Data de Entrega : 99/99/9999
+              </div>
+
+          </div>
+
+        </div>
+
+        <div class="col-sm-6 col-md-4">
+
+          <div class="card mb-5">
+
+            <img class="card-img-top" src="imgs/slide-03.jpg">
+            <div class="card-body">
+                <h4 class="card-title">Conteúdo aqui</h4>
+                <h6 class="card-subtitle mb-2 text-muted">Fazendo com que ele tenha.</h6>
+                <p class="card-text">O trecho padrão original de Lorem Ipsum, usado desde o século XVI, está reproduzido abaixo para os interessados.</p>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Serviço</li>
+                <li class="list-group-item">Manutenção</li>
+                <li class="list-group-item">Venda</li>
+              </ul>
+              <div class="card-body">
+                <a href="#" class="card-link" data-toggle="modal" data-target="#siteModal">Acesse Modal</a>
+                <a href="#" class="card-link">Saiba Mais</a>
+              </div>
+              <div class="card-footer text-muted">
+                Data de Entrega : 99/99/9999
+              </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="jumbotron jumbotron-fluid">
+
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-12 text-center">
+
+            <h1 class="display-4"><i class="fa fa-video-camera text-primary"></i>Onde posso conseguí-lo?</h1>
+            <p class="lead">Existem muitas variações disponíveis de passagens de Lorem Ipsum, mas a maioria sofreu algum tipo de alteração, seja por inserção de passagens com humor, ou palavras aleatórias que não parecem nem um pouco convincentes.</p>
+            <hr>
+
+          </div>
+
+        </div>
+
+        <div class="row">
+
+          <div class="col-12">
+
+            <ul class="nav nav-pills justify-content-center mb-4" id="pills-nav" role="tablist">
+
+              <li class"nav-item">
+                <a class="nav-link active" id="nav-pills-01" data-toggle="pill" href="#nav-item-01">Ao contrário do que se acredita</a>
+              </li>
+
+              <li class"nav-item">
+                <a class="nav-link" id="nav-pills-02" data-toggle="pill" href="#nav-item-02">Sydney College na Virginia</a>
+              </li>
+
+              <li class"nav-item">
+                <a class="nav-link" id="nav-pills-03" data-toggle="pill" href="#nav-item-03">Existem muitas variações</a>
+              </li>
+
+            </ul>
+
+            <div class="tab-content" id="nav-pills-content">
+
+              <div class="tab-pane fade show active" id="nav-item-01" role="tabpanel">
+
+                <div class="row">
+
+                  <div class="col-sm-6">
+
+                    <div class="embed-responsive embed-responsive-4by3">
+                      <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/UZoJ6fVbOcQ"></iframe>
+                    </div>
+
+                  </div>
+
+                  <div class="col-sm-6">
+
+                    <p>Existem muitas variações disponíveis de passagens de Lorem Ipsum, mas a maioria sofreu algum tipo de alteração, seja por inserção de passagens com humor, ou palavras aleatórias que não parecem nem um pouco convincentes. Se você pretende usar uma passagem de Lorem Ipsum, precisa ter certeza de que não há algo embaraçoso escrito escondido no meio do texto.</p>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+              <div class="tab-pane fade" id="nav-item-02" role="tabpanel">
+
+                <div class="row">
+
+                  <div class="col-sm-6">
+
+                    <div class="embed-responsive embed-responsive-4by3">
+                      <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/tBRqx3HQG0o"></iframe>
+                    </div>
+
+                  </div>
+
+                  <div class="col-sm-6">
+
+                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+              <div class="tab-pane fade" id="nav-item-03" role="tabpanel">
+
+                <div class="row">
+
+                  <div class="col-sm-6">
+
+                    <div class="embed-responsive embed-responsive-4by3">
+                      <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/UZoJ6fVbOcQ"></iframe>
+                    </div>
+
+                  </div>
+
+                  <div class="col-sm-6">
+
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-12 text-center my-5">
+
+          <div class="display-4"><i class="fa fa-paper-plane text-primary"></i>Teste de Formulário</div>
+
+        </div>
+
+      </div>
+
+      <div class="row mb-5 justify-content-center mb-5">
+
+        <div class="col-sm-12 col-md-10 col-lg-8">
+
+          <form>
+
+            <div class="form-row">
+
+              <div class="form-group col-sm-6">
+
+                <label for="inputNome">Seu Nome</label>
+                <input type="text" class="form-control" id="inputNome" placeholder="Nome">
+
+              </div>
+
+              <div class="form-group col-sm-6">
+
+                <label for="inputSobrenome">SobreNome</label>
+                <input type="text" class="form-control" id="inputSobrenome" placeholder="Sobrenome">
+
+              </div>
+
+            </div>
+
+            <div class="form-row">
+
+              <div class="form-group col-sm-12">
+
+                <label for="inputEnd">Seu Endereço</label>
+                <input type="text" class="form-control" id="inputEnd" placeholder="Endereço completo">
+
+              </div>
+
+            </div>
+
+            <div class="form-row">
+
+              <div class="form-group col-sm-6">
+
+                <label for="inputCidade">Sua Cidade</label>
+                <input type="text" class="form-control" id="inputCidade" placeholder="Cidade">
+
+              </div>
+              
+              <div class="form-group col-sm-4">
+
+                <label for="inputEstado">Seu Estado</label>
+                <select  id="inputEstado" class="form-control">
+                  <option selected>Escolha...</option>
+                  <option>...</option>
+                  <option>...</option>
+                  <option>...</option>
+                </select>                                    
+                  
+              </div>
+
+              <div class="form-group col-sm-2">
+
+                <label for="inputCEP">Seu CEP</label>
+                <input type="text" class="form-control" id="inputCEP" placeholder="CEP">
+
+              </div>
+
+            </div>
+
+            <div class="form-row">
+
+              <div class="form-group col-sm-12">
+
+                <div class="form-check">
+
+                  <label class="form-check-label">
+                    <input class="form-check-input" type="checkbox">Desejo receber novidades por e-mail
+                  </label>
+
+                </div>
+
+              </div>
+
+            </div>
+
+            <div class="form-row">
+
+              <div class="form-group col-sm-12">
+
+                <button type="submit" class="btn btn-primary">Enviar</button>
+                <a tabindex="0" class="btn btn-secondary ml-2" role="button" data-toggle="popover" data-placement="right" data-trigger="focus" title="iausdhuiashdiasuhdaihui" data-content="dasjdoiasjdoasjdoisa dsaoid sajdasi das diajs oiasdjd asoid jasoi">Ajuda</a>
+              
+              </div>
+
+            </div>
+
+          </form>
+
+        </div>
+
+      </div>
+
+      <div class="row">
+
+        <div class="col-12 mb-3"><hr></div>
+
+        <div class="col-sm-4">
+          <h3>Curso</h3>
+          <p>A vantagem de usar Lorem Ipsum é que ele tem uma distribuição normal de letras, ao contrário de "Conteúdo aqui, conteúdo aqui", fazendo com que ele tenha uma aparência similar a de um texto legível.</p>
+          <p>A vantagem de usar Lorem Ipsum é que ele tem uma distribuição normal de letras, ao contrário de "Conteúdo aqui, conteúdo aqui", fazendo com que ele tenha uma aparência similar a de um texto legível.</p>
+        </div>
+
+        <div class="col-sm-4">
+
+          <h3>Menu</h3>
+
+          <div class="list-group text-center">
+            <a href="#" class="list-group-item list-group-item-action list-group-item-primary">Perfil</a>
+            <a href="#" class="list-group-item list-group-item-action">Serviços</a>
+            <a href="#" class="list-group-item list-group-item-action active">Depoimentos</a>
+            <a href="#" class="list-group-item list-group-item-action">Contatos</a>
+          </div>
+
+        </div>
+
+        <div class="col-sm-4">
+
+          <h3>Social</h3>
+
+          <div class="btn-group-vertical btn-block btn-group-lg" role="group">
+            <a class="btn btn-outline-primary" href="#"><i class="fa fa-facebook-square"></i> Facebook</a>
+            <a class="btn btn-outline-info" href="#"><i class="fa fa-twitter-square"></i> Twitter</a>
+            <a class="btn btn-outline-warning" href="#"><i class="fa fa-instagram"></i> Instagram</a>
+          </div>
+          
+        </div>
+
+        <div class="col-12 mt-5">
+          <hr>
+          <blockquote class="blockquote text-center">
+
+            <p class="mb-0">O sucesso não é garantido, mas o fracasso é certo se você não estiver emocionalmente envolvido em seu trabalho.</p>
+            <footer class="blockquote-footer">Biz Stone <cite title="Título"> Fundador do Twitter</cite></footer>
+
+          </blockquote>
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="siteModal" tabindex="-1" role="dialog">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+
+          <div class="modal-header">
+            <h5 class="modal-title">O que é Lorem Ipsum?</h5>
+            <button type="button" class="close" data-dismiss="modal">
+              <span>&times;</span>
+            </button>
+          </div>
+
+          <div class="modal-body">
+            <div class="container-fluid">
+              <div class="row">
+
+                <div class="col-6">
+                  <h5>Título Novo</h5>
+                  <p>"But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.</p>
+                </div>
+
+                <div class="col-6">
+                  <h5>Título Novo 2</h5>
+                  <p>"But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.</p>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal - FIM -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="node_modules\jquery\dist\jquery.js"></script>
+    <script src="node_modules\popper.js\dist\umd\popper.js"></script>
+    <script src="node_modules\bootstrap\dist\js\bootstrap.js"></script>
+
+    <script>
+    
+      $(function () {
+        $('[data-toggle="popover"]').popover()
+      })
+
+    </script>
+    
+  </body>
+</html>
